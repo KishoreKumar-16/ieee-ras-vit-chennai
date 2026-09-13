@@ -2827,3 +2827,70 @@ footer p,
 .footer-bottom span {
   color: #aeb7c7;
 }
+/* =========================
+   FINAL TEAM VISIBILITY
+   ========================= */
+
+.team-card h4 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.team-card p {
+  color: #c5ccda;
+}
+   /* =========================
+   FINAL PROJECT VISIBILITY
+   ========================= */
+
+.project-number {
+  color: #35e0ff !important;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+}
+
+.project-status {
+  color: #c5ccda !important;
+  border-color: rgba(77, 166, 255, 0.35);
+}
+   /* =========================
+   DOMAIN VISIBILITY
+   ========================= */
+
+.domains-section .section-label {
+  color: #4da6ff !important;
+}
+
+.domains-section .section-heading-row h2 {
+  color: #ffffff !important;
+}
+
+.domains-section .section-heading-row p {
+  color: #c5ccda !important;
+}
+
+.domain-number {
+  color: #35e0ff !important;
+  font-weight: 700;
+}
+
+.domain-symbol {
+  color: #9b7cff !important;
+}
+
+.domain-card h3 {
+  color: #ffffff !important;
+}
+
+.domain-card p {
+  color: #c5ccda !important;
+}
+   .section-label {
+  color: #4da6ff !important;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+   }
