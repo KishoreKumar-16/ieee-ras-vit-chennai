@@ -2755,3 +2755,75 @@ footer {
 .nav-links a:hover {
   color: #35e0ff;
 }
+   /* =========================
+   IMPROVE TEXT VISIBILITY
+   ========================= */
+
+/* Section labels such as 01 — ABOUT RAS, 02 — DOMAINS */
+.section-label {
+  color: #4da6ff;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+/* All normal small descriptions */
+.section p,
+.domain-card p,
+.project-card p,
+.event-card p,
+.about-story p,
+.about-highlight p,
+.contact-description {
+  color: #c5ccda;
+}
+
+/* Domain section heading */
+.domains-section .section-heading-row h2 {
+  color: #ffffff;
+}
+
+/* Domain section description */
+.domains-section .section-heading-row p {
+  color: #c5ccda;
+}
+
+/* Domain card titles */
+.domain-card h3 {
+  color: #ffffff;
+}
+
+/* Project descriptions */
+.project-card p {
+  color: #c5ccda;
+}
+
+/* Event descriptions */
+.event-card p {
+  color: #c5ccda;
+}
+
+/* Team descriptions / roles */
+.team-card p {
+  color: #c5ccda;
+}
+
+/* About highlight text */
+.about-highlight h3 {
+  color: #ffffff;
+}
+
+.about-highlight p {
+  color: #c5ccda;
+}
+
+/* Focus strip small text */
+.focus-strip span,
+.focus-strip p {
+  color: #b8c0d0;
+}
+
+/* Footer small text */
+footer p,
+.footer-bottom span {
+  color: #aeb7c7;
+}
