@@ -3410,4 +3410,103 @@ footer p,
 .social-arrow {
   margin-left: auto;
 }
-   
+/* =================================
+   FINAL CONTACT CENTERING FIX
+================================= */
+
+.contact-section {
+  display: block !important;
+  width: 100%;
+  text-align: center !important;
+  border-top: 1px solid rgba(77, 166, 255, 0.2);
+  border-bottom: 1px solid rgba(77, 166, 255, 0.2);
+}
+
+.contact-section > .section-label {
+  text-align: center !important;
+}
+
+.contact-content {
+  width: 100% !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  text-align: center !important;
+}
+
+.contact-content > div:first-child {
+  width: 100%;
+  text-align: center !important;
+}
+
+.contact-content h2 {
+  max-width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+
+.contact-description {
+  max-width: 700px !important;
+  margin: 20px auto 0 !important;
+  text-align: center !important;
+}
+
+
+/* Social media cards */
+
+.social-links {
+  width: 100% !important;
+  max-width: 650px !important;
+
+  margin: 40px auto 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+
+  gap: 14px;
+}
+
+.social-link {
+  width: 100% !important;
+  box-sizing: border-box;
+
+  display: flex !important;
+  align-items: center;
+
+  text-align: left !important;
+}
+
+
+/* Keep the arrow at the far right */
+
+.social-arrow {
+  margin-left: auto !important;
+}
+
+
+/* Mobile */
+
+@media (max-width: 800px) {
+
+  .contact-section {
+    display: block !important;
+    text-align: center !important;
+  }
+
+  .contact-content {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .social-links {
+    width: 100% !important;
+    max-width: 600px !important;
+  }
+
+}   
